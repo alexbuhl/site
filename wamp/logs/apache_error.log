@@ -1,0 +1,82 @@
+[Tue Apr 26 18:19:44.609322 2016] [mpm_winnt:notice] [pid 5184:tid 536] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Tue Apr 26 18:19:44.609322 2016] [mpm_winnt:notice] [pid 5184:tid 536] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Tue Apr 26 18:19:44.609322 2016] [core:notice] [pid 5184:tid 536] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Tue Apr 26 18:19:44.609322 2016] [mpm_winnt:notice] [pid 5184:tid 536] AH00418: Parent: Created child process 8632
+[Tue Apr 26 18:19:45.024988 2016] [mpm_winnt:notice] [pid 8632:tid 456] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 26 18:21:07.059947 2016] [authz_core:error] [pid 8632:tid 944] [client ::1:62422] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 18:21:07.062949 2016] [authz_core:error] [pid 8632:tid 944] [client ::1:62422] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:10:55.600324 2016] [authz_core:error] [pid 8632:tid 952] [client ::1:63714] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:10:55.600324 2016] [authz_core:error] [pid 8632:tid 968] [client ::1:63715] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:10:55.602325 2016] [authz_core:error] [pid 8632:tid 960] [client ::1:63716] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:10:55.604329 2016] [authz_core:error] [pid 8632:tid 968] [client ::1:63715] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:12:19.637307 2016] [authz_core:error] [pid 8632:tid 928] [client ::1:63734] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:12:19.638308 2016] [authz_core:error] [pid 8632:tid 952] [client ::1:63735] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:12:19.640310 2016] [authz_core:error] [pid 8632:tid 928] [client ::1:63734] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:12:19.643312 2016] [authz_core:error] [pid 8632:tid 952] [client ::1:63735] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:12:19.643312 2016] [authz_core:error] [pid 8632:tid 944] [client ::1:63736] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:14:19.580385 2016] [authz_core:error] [pid 8632:tid 944] [client ::1:63749] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:14:19.581389 2016] [authz_core:error] [pid 8632:tid 952] [client ::1:63750] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:14:19.584388 2016] [authz_core:error] [pid 8632:tid 944] [client ::1:63749] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:14:19.586389 2016] [authz_core:error] [pid 8632:tid 952] [client ::1:63750] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:15:56.880336 2016] [authz_core:error] [pid 8632:tid 940] [client ::1:63764] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:15:56.880336 2016] [authz_core:error] [pid 8632:tid 960] [client ::1:63765] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:15:56.882338 2016] [authz_core:error] [pid 8632:tid 928] [client ::1:63766] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Tue Apr 26 20:15:56.884339 2016] [authz_core:error] [pid 8632:tid 960] [client ::1:63765] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Wed Apr 27 11:38:59.039615 2016] [:error] [pid 8632:tid 940] [client ::1:64665] script 'C:/wamp/www/tests/traitement.php' not found or unable to stat, referer: http://localhost/tests/Formulaire.php
+[Wed Apr 27 11:39:22.362670 2016] [:error] [pid 8632:tid 940] [client ::1:64669] script 'C:/wamp/www/tests/traitement.php' not found or unable to stat, referer: http://localhost/tests/Formulaire.php
+[Wed Apr 27 12:26:16.357926 2016] [core:error] [pid 8632:tid 940] (20025)The given path contained wildcard characters: [client ::1:64913] AH00036: access to /tests/Connection*.php failed (filesystem path 'C:/wamp/www/tests/Connection*.php'), referer: http://localhost/tests/Accueil.php
+[Wed Apr 27 12:26:37.725586 2016] [core:error] [pid 8632:tid 940] (20025)The given path contained wildcard characters: [client ::1:64914] AH00036: access to /tests/Connection*.php failed (filesystem path 'C:/wamp/www/tests/Connection*.php'), referer: http://localhost/tests/Accueil.php
+[Wed Apr 27 14:20:49.753566 2016] [authz_core:error] [pid 8632:tid 968] [client ::1:56115] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Wed Apr 27 14:20:49.763572 2016] [authz_core:error] [pid 8632:tid 968] [client ::1:56115] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Wed Apr 27 14:20:49.774580 2016] [authz_core:error] [pid 8632:tid 968] [client ::1:56115] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Wed Apr 27 14:20:49.785588 2016] [authz_core:error] [pid 8632:tid 968] [client ::1:56115] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Wed Apr 27 14:21:47.550257 2016] [:error] [pid 8632:tid 928] [client ::1:56121] script 'C:/wamp/www/tests/Deconnection.php' not found or unable to stat, referer: http://localhost/tests/FlexGrid.php
+[Wed Apr 27 17:24:40.833653 2016] [authz_core:error] [pid 8632:tid 960] [client ::1:56394] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Wed Apr 27 17:24:40.841660 2016] [authz_core:error] [pid 8632:tid 960] [client ::1:56394] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Wed Apr 27 17:24:40.844662 2016] [authz_core:error] [pid 8632:tid 960] [client ::1:56394] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Wed Apr 27 17:24:40.847664 2016] [authz_core:error] [pid 8632:tid 960] [client ::1:56394] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 18:54:47.069198 2016] [authz_core:error] [pid 8632:tid 928] [client ::1:61545] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 18:54:47.073201 2016] [authz_core:error] [pid 8632:tid 968] [client ::1:61546] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 18:54:47.074202 2016] [authz_core:error] [pid 8632:tid 928] [client ::1:61545] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 18:54:47.099773 2016] [authz_core:error] [pid 8632:tid 940] [client ::1:61547] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 19:06:10.112992 2016] [mpm_winnt:notice] [pid 5184:tid 536] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun May 01 19:06:12.160625 2016] [mpm_winnt:notice] [pid 8632:tid 456] AH00364: Child: All worker threads have exited.
+[Sun May 01 19:06:12.814675 2016] [mpm_winnt:notice] [pid 5184:tid 536] AH00430: Parent: Child process 8632 exited successfully.
+[Sun May 01 19:06:17.075506 2016] [mpm_winnt:notice] [pid 9880:tid 544] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Sun May 01 19:06:17.076507 2016] [mpm_winnt:notice] [pid 9880:tid 544] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Sun May 01 19:06:17.076507 2016] [core:notice] [pid 9880:tid 544] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Sun May 01 19:06:17.077507 2016] [mpm_winnt:notice] [pid 9880:tid 544] AH00418: Parent: Created child process 11400
+[Sun May 01 19:06:17.680936 2016] [mpm_winnt:notice] [pid 11400:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sun May 01 19:12:20.251060 2016] [authz_core:error] [pid 11400:tid 964] [client ::1:61616] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 19:12:20.252060 2016] [authz_core:error] [pid 11400:tid 960] [client ::1:61617] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 19:12:20.254060 2016] [authz_core:error] [pid 11400:tid 964] [client ::1:61616] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 19:12:20.257063 2016] [authz_core:error] [pid 11400:tid 960] [client ::1:61617] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 19:12:20.259064 2016] [authz_core:error] [pid 11400:tid 964] [client ::1:61616] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 23:59:03.749519 2016] [authz_core:error] [pid 11400:tid 960] [client ::1:63458] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 23:59:03.750521 2016] [authz_core:error] [pid 11400:tid 936] [client ::1:63459] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 23:59:03.752520 2016] [authz_core:error] [pid 11400:tid 960] [client ::1:63458] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 23:59:03.755524 2016] [authz_core:error] [pid 11400:tid 960] [client ::1:63458] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Sun May 01 23:59:03.756524 2016] [authz_core:error] [pid 11400:tid 936] [client ::1:63459] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 00:03:14.970363 2016] [authz_core:error] [pid 11400:tid 960] [client ::1:63507] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 00:03:15.086445 2016] [authz_core:error] [pid 11400:tid 960] [client ::1:63507] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 00:03:15.089448 2016] [authz_core:error] [pid 11400:tid 960] [client ::1:63507] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 00:03:15.090448 2016] [authz_core:error] [pid 11400:tid 952] [client ::1:63508] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 00:03:15.094452 2016] [authz_core:error] [pid 11400:tid 952] [client ::1:63508] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 00:08:14.508454 2016] [mpm_winnt:notice] [pid 9880:tid 544] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon May 02 00:08:16.509816 2016] [mpm_winnt:notice] [pid 11400:tid 480] AH00364: Child: All worker threads have exited.
+[Mon May 02 00:08:16.540172 2016] [mpm_winnt:notice] [pid 9880:tid 544] AH00430: Parent: Child process 11400 exited successfully.
+[Mon May 02 17:05:18.081363 2016] [mpm_winnt:notice] [pid 432:tid 528] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Mon May 02 17:05:18.081363 2016] [mpm_winnt:notice] [pid 432:tid 528] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Mon May 02 17:05:18.081363 2016] [core:notice] [pid 432:tid 528] AH00094: Command line: 'c:\\wamp\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d C:/wamp/bin/apache/apache2.4.9'
+[Mon May 02 17:05:18.081363 2016] [mpm_winnt:notice] [pid 432:tid 528] AH00418: Parent: Created child process 9936
+[Mon May 02 17:05:18.534496 2016] [mpm_winnt:notice] [pid 9936:tid 452] AH00354: Child: Starting 64 worker threads.
+[Mon May 02 17:05:28.948438 2016] [authz_core:error] [pid 9936:tid 944] [client ::1:51618] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 17:05:28.964064 2016] [authz_core:error] [pid 9936:tid 952] [client ::1:51617] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 17:05:28.964064 2016] [authz_core:error] [pid 9936:tid 944] [client ::1:51618] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 17:05:28.964064 2016] [authz_core:error] [pid 9936:tid 944] [client ::1:51618] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 17:05:29.016572 2016] [authz_core:error] [pid 9936:tid 952] [client ::1:51617] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 18:00:24.783167 2016] [authz_core:error] [pid 9936:tid 964] [client ::1:51911] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 18:00:24.785169 2016] [authz_core:error] [pid 9936:tid 936] [client ::1:51912] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 18:00:24.786169 2016] [authz_core:error] [pid 9936:tid 944] [client ::1:51913] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 18:00:24.790173 2016] [authz_core:error] [pid 9936:tid 936] [client ::1:51912] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
+[Mon May 02 18:00:24.791173 2016] [authz_core:error] [pid 9936:tid 944] [client ::1:51913] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/tests/
